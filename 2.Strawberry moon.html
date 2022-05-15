@@ -20,7 +20,7 @@ body{
     padding:20px;
   }
 
-  ol {
+  #grid ol {
     display: table;
     margin-left: auto;
     margin-right: auto;
@@ -34,7 +34,7 @@ body{
   #grid{
     border:1px solid pink;
     display:grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr;
 }
   div{
     border:1px solid pink;
@@ -49,6 +49,15 @@ body{
     padding-bottom:20px;
   }
 
+  body {
+  margin: 0px;
+}
+
+  @media(max-width:900px){
+    #grid{
+      display:block;
+  }
+
   </style>
 
   <body>
@@ -58,7 +67,7 @@ body{
       <div><ol class="center">
             <li><a href = "2.Strawberry moon.html">IU - Strawberry Moon</a></li>
             <li><a href = "3.weekend.html">태연 - Weekend</a></li>
-            <li><a href = "4.Through_the_night.html">IU - 밤편지</a></li>
+            <li><a href = "4.Through_the_night">IU - 밤편지</a></li>
           </ol></div>
 
       <div><iframe width="560" height="315" src="https://www.youtube.com/embed/sqgxcCjD04s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
