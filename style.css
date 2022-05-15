@@ -46,7 +46,7 @@ body{
   margin: 0px;
 }
 
-  @media(max-width:900px){
+  @media(max-width:670px){
     #grid{
       display:block;
   }
